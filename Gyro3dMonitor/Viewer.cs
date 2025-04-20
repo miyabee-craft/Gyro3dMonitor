@@ -93,6 +93,7 @@ namespace Gyro3dMonitor
         /// <param name="e">イベントの追加情報</param>
         private void Viewer_Load(object sender, EventArgs e)
         {
+            toolStripStatusLabel_StateMonitor.Text = Resources.Resource.StateMonitor_Offline;   // "オフライン";
         }
         /// <summary>
         /// glControlコントロールをフォームに追加
