@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="button_Close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="button_DisplayModel" xml:space="preserve">
+    <value>보기 표시</value>
+  </data>
+  <data name="button_LoadModel" xml:space="preserve">
+    <value>STL 모델 로드</value>
+  </data>
+  <data name="button_MonitorOnOff" xml:space="preserve">
+    <value>자이로 모니터 시작</value>
+  </data>
+  <data name="button_SaveImage" xml:space="preserve">
+    <value>캡처 및 저장</value>
+  </data>
+  <data name="button_SelectBitmap" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="checkBox_CheckGround" xml:space="preserve">
+    <value>바닥 확인</value>
+  </data>
+  <data name="checkBox_CoordinateAxes" xml:space="preserve">
+    <value>좌표축</value>
+  </data>
+  <data name="checkBox_MeshGround" xml:space="preserve">
+    <value>메쉬 바닥</value>
+  </data>
+  <data name="checkBox_shadowEnable" xml:space="preserve">
+    <value>그림자 (바닥 높이 0 고정)</value>
+  </data>
+  <data name="checkBox_SkyDome" xml:space="preserve">
+    <value>하늘 돔 ----&gt;</value>
+  </data>
+  <data name="label_BackgroundColor" xml:space="preserve">
+    <value>배경:</value>
+  </data>
+  <data name="label_ColorPalette" xml:space="preserve">
+    <value>색상 팔레트:</value>
+  </data>
+  <data name="label_far" xml:space="preserve">
+    <value>far:</value>
+  </data>
+  <data name="label_FOV" xml:space="preserve">
+    <value>FOV:</value>
+  </data>
+  <data name="label_GyroOperation" xml:space="preserve">
+    <value>【자이로 작동】</value>
+  </data>
+  <data name="label_Hight" xml:space="preserve">
+    <value>］높이:</value>
+  </data>
+  <data name="label_LightingColor" xml:space="preserve">
+    <value>조명:</value>
+  </data>
+  <data name="label_MaterialColor" xml:space="preserve">
+    <value>소재:</value>
+  </data>
+  <data name="label_near" xml:space="preserve">
+    <value>near:</value>
+  </data>
+  <data name="label_Port" xml:space="preserve">
+    <value>통신 포트:</value>
+  </data>
+  <data name="label_Radius" xml:space="preserve">
+    <value>반지름:</value>
+  </data>
+  <data name="label_RotationMethod" xml:space="preserve">
+    <value>회전 방법:</value>
+  </data>
+  <data name="label_Timeout" xml:space="preserve">
+    <value>타임아웃 (초):</value>
+  </data>
+  <data name="label_ViewerOperation" xml:space="preserve">
+    <value>【뷰어 작동】</value>
+  </data>
+  <data name="label_ViewportSettings" xml:space="preserve">
+    <value>【뷰포트 설정 (VP 자동)】</value>
+  </data>
+  <data name="label_VP" xml:space="preserve">
+    <value>VP x,y,z:</value>
+  </data>
+  <data name="label_WH" xml:space="preserve">
+    <value>W, H:</value>
+  </data>
+  <data name="radioButton_Dark" xml:space="preserve">
+    <value>어두운</value>
+  </data>
+  <data name="radioButton_Light" xml:space="preserve">
+    <value>밝은</value>
+  </data>
+  <data name="radioButton_LightingColor" xml:space="preserve">
+    <value>조명 색상:</value>
+  </data>
+  <data name="radioButton_MaterialColor" xml:space="preserve">
+    <value>재질 색상:</value>
+  </data>
+  <data name="radioButton_RGBColor" xml:space="preserve">
+    <value>배경 색상:</value>
+  </data>
+  <data name="radioButton_Texture" xml:space="preserve">
+    <value>텍스처:</value>
+  </data>
+  <data name="comboBox_RotationMethod_Items" xml:space="preserve">
+    <value>사원수; 오일러 각도</value>
+  </data>
+  <data name="button_MonitorOff" xml:space="preserve">
+    <value>자이로 모니터 취소</value>
+  </data>
+  <data name="button_DisplayModelUpdate" xml:space="preserve">
+    <value>보기 업데이트</value>
+  </data>
+  <data name="StateMonitor_Receiving" xml:space="preserve">
+    <value>수신 중</value>
+  </data>
+  <data name="StateMonitor_Offline" xml:space="preserve">
+    <value>오프라인</value>
+  </data>
+  <data name="StateMonitor_Waiting" xml:space="preserve">
+    <value>수신 대기</value>
+  </data>
+  <data name="StateMonitor_Receiving_Unit" xml:space="preserve">
+    <value>초</value>
+  </data>
+  <data name="msgMain_1" xml:space="preserve">
+    <value>모델 파일 가져오기</value>
+  </data>
+  <data name="msgMain_2" xml:space="preserve">
+    <value>STL 모델 (*.stl)|*.stl</value>
+  </data>
+  <data name="msgMain_3" xml:space="preserve">
+    <value>파일을 찾을 수 없습니다.</value>
+  </data>
+  <data name="msgMain_4" xml:space="preserve">
+    <value>이미지 파일 가져오기</value>
+  </data>
+  <data name="msgMain_5" xml:space="preserve">
+    <value>이미지 파일 (*.jpg)|*.jpg</value>
+  </data>
+  <data name="msgMain_6" xml:space="preserve">
+    <value>파일을 찾을 수 없습니다.</value>
+  </data>
+  <data name="msgMain_7" xml:space="preserve">
+    <value>캡처된 이미지가 없습니다.</value>
+  </data>
+  <data name="msgMain_8" xml:space="preserve">
+    <value>이미지 데이터가 없습니다.</value>
+  </data>
+  <data name="msgMain_9" xml:space="preserve">
+    <value>캡처된 이미지를 저장하시겠습니까?</value>
+  </data>
+  <data name="msgMain_10" xml:space="preserve">
+    <value>PNG image (*.png)|*.png|JPEG image (*.jpg)|*.jpg</value>
+  </data>
+  <data name="msgMain_11" xml:space="preserve">
+    <value>오류가 발생했습니다:</value>
+  </data>
+  <data name="msgMain_12" xml:space="preserve">
+    <value>모델이 로드되지 않았습니다.</value>
+  </data>
+  <data name="msgMain_13" xml:space="preserve">
+    <value>뷰가 표시되지 않습니다.</value>
+  </data>
+  <data name="msgView_1" xml:space="preserve">
+    <value>자이로 모니터가 중단되었습니다.</value>
+  </data>
+  <data name="msgView_2" xml:space="preserve">
+    <value>자이로 센서를 수신할 수 없습니다 (타임아웃).</value>
+  </data>
+  <data name="msgView_3" xml:space="preserve">
+    <value>통신이 중단되었습니다.</value>
+  </data>
+  <data name="msgView_4" xml:space="preserve">
+    <value>통신이 중단되었습니다.</value>
+  </data>
+  <data name="msgView_5" xml:space="preserve">
+    <value>소켓 오류:</value>
+  </data>
+  <data name="StateMonitor_Timeout" xml:space="preserve">
+    <value>타임아웃</value>
+  </data>
+  <data name="StateMonitor_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+</root>
